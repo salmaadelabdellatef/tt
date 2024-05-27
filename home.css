@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(173, 244, 162);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: center; 
+}
+.nav a{
+    padding: 20px;
+    margin: 10px;
+}
+img{
+    border-radius: 40%;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    border: solid 2px black;
+}
+.btn{
+    background-color: rgb(6, 39, 6);
+    color: white;
+    width: 200px;
+    height: 20px; 
+}
+.btn:hover{
+    background-color: rgb(17, 141, 60);
+}
+.container{
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    width: 400vw;
+}
+.footer{
+    background-color: rgb(173, 244, 162);
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+    opacity: 1s;  
+}
+#contact{
+    margin-left: 20%;
+    margin-top:-7%;
+}
+#Account{
+    margin-top: -7%;
+    margin-left: 40%;
+}

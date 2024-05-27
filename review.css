@@ -1,0 +1,31 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+table{ 
+        border: 1px solid ;
+        width: 50%;
+        margin: auto;
+}
+#th{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    background-color: rgb(141, 241, 141);
+
+}
+td{
+    border: 1px solid;
+}
+
+#sumbit{
+    margin-left: 1000px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    background: green;
+
+}

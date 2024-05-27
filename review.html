@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+<body>
+    <div class="container">
+        <form class="quiz">
+           <table id="table">
+               <tr>
+                 <th id="th">Quiestion</th>
+                 <th id="th">Answers</th>
+               </tr>
+               <tr>
+                 <td>Are you stasifed with our serviec ?</td>
+                 <td>
+                    <input type="radio" name="q1"value="yes">Yes
+                    <input type="radio" name="q1" value="no">No
+                 </td>
+
+               </tr>
+               <tr>
+                <td>Do you find our website user frindely?</td>
+                <td>
+                    <input type="radio" name="q2" value="yes">Yes
+                    <input type="radio" name="q2" value="no" >No
+                </td>
+
+              </tr>
+              <tr>
+                <td>Woud you recommend us to other?</td>
+                <td>
+                   <input type="radio" name="q3" value="yes">Yes
+                   <input type="radio" name="q3" value="no">No
+                </td>
+
+              </tr>
+                
+           </table>
+        </form>
+       <label ><input type="button" id="sumbit" onclick=" score()">score</label> 
+      
+    </div>
+       <script src="review.js"></script>
+</body>
+</html>

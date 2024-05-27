@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body id="bdy">
+    <form class="frm">
+        <label for="username">Username</label><br>
+        <input type="text" id="username"><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="password"><br>
+        <a href="#form">
+            signup
+        </a>
+        <a href="#">
+            forget password
+        </a>
+
+        <button id="btn" type="button" onclick="login()">Login</button>
+    </form>
+    <form id="form">
+          <label for="username">username</label><br>
+          <input type="text" placeholder="username" id="user"><br>
+          <label for="Email">Email</label><br>
+          <input type="text" placeholder="Email" id="email"><br>
+          <label for="age">Age</label><br>
+          <input type="text" placeholder="age" id="age"><br>
+          <label for="Password">Password</label><br>
+          <input type="text" placeholder="password" id="pass"><br>
+          <label for="confirm">confirm password</label><br>
+          <input type="text" placeholder="confirm" id="confirm"><br>
+          <input type="radio"name="answer" >
+          <label for="mail">mail</label>
+          <input type="radio"name="answer">
+          <label for="femail">femail</label><br><br>
+          <label for="phone">Phone Number</label><br>
+          <input type="text" placeholder="Phone Number" id="phone"><br>
+           <button type="button" id="btn" onclick="signup()">SignUp</button>
+          
+    </form>
+    <form id="fom">
+        <label for="username">username</label><br>
+        <input type="text" placeholder="username" id="username"><br>
+        <label for="Password">NewPassword</label><br>
+        <input type="text" placeholder="newpassword" id="newpass"><br>
+       <button type="button" id="bon" onclick="forget()">Update</button>
+
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>

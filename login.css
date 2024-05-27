@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ #bdy{
+     background-color: black;
+ 
+ }
+ .frm{
+     background:linear-gradient(gray ,white);
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     width: 400px;
+     height: 300px;
+     margin-left: 20%;
+     margin-top: 10%;
+     border-radius: 10px;
+     border:solid blue 1px ;
+     padding: 37px;
+ }
+ .frm a{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: 1s;
+ }
+ #btn{
+     padding: 10px;
+     margin: 10%;
+     width: 200px;
+     height: 30px;
+     color: white;
+     background-color: black;
+ }
+ #form{
+     background:linear-gradient(gray ,white);
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     width: 500px;
+     height: 400px;
+     margin-left: 60%;
+     margin-top: -15%;
+     border-radius: 10px;
+     border:solid blue 1px ;
+     padding: 35px ;
+     padding-left: 3px; 
+     position: fixed;
+     font-family:15px  ;
+     box-shadow: rgb(194, 194, 208);
+    
+ }
+
+ #signup{
+     width: 200px;
+     background: black;
+     color: white;
+     height: 20px;
+     margin: 10%;
+ }
+ #fom{
+    background:linear-gradient(gray ,white);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border:solid blue 1px ;
+    padding: 37px;
+   
+    
+ }
+ #bon{
+    padding: 10px;
+     margin: 10%;
+     width: 200px;
+     height: 30px;
+     color: white;
+     background-color: black;
+ }
